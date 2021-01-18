@@ -1,0 +1,79 @@
+html, body {
+    background-color: #000;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+body
+{
+    background: url(../img/BG.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content, input{
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #fff;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: .1rem;
+    text-decoration: none;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+h3, h4, tr, th, label
+{
+    color:#fff;
+}
+
+h3, h4
+{
+    line-height: 1.5;
+}
+
+th, table
+{
+    padding: 10px;
+}
+
+tr
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.head-title
+{
+    padding: 20px;
+}
